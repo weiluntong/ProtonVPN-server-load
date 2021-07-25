@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "ProtonVPN-server-load"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Alternative to checking https://protonvpn.com/vpn-servers everytime you want to connect to a ProtonVPN server"
+authors = ["weiluntong <weiluntong.inbox@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
