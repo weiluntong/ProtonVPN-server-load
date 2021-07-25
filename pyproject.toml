@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ProtonVPN-server-load"
+version = "0.1.0"
+description = "Alternative to checking https://protonvpn.com/vpn-servers everytime you want to connect to a ProtonVPN server"
+authors = ["weiluntong <weiluntong.inbox@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
