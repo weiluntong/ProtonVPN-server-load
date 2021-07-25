@@ -51,4 +51,9 @@ You can get the country codes [here](https://protonvpn.com/vpn-servers)
 `poetry install`
 ### Testing
 `poetry run pytest`
+### Building
+`poetry build`
+
+
+Note: This command builds the source and wheel archives. Probably not actually super useful unless you're planning to install it with pip for other python projects or otherwise publish it to PyPi. Most interaction you want to have with the source will probably be through tests you make and run with the command in [Testing](#testing). Honestly, the build command is here just for completeness. Python doesn't need to be built.
 
